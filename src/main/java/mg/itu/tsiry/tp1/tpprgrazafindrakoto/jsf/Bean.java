@@ -44,7 +44,14 @@ public class Bean {
         return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
     }
     
+     public String afficher_4(){
+        return "affichage__4?nb=" + nombre + "&amp;faces-redirect=true";
+    }
+    
     public String retour(){
         return "formulaire_4?nb=" + nombre + "&amp;faces-redirect=true";
+    }
+    public String retour_(){
+        return "formulaire__4?nb=" + nombre + "&amp;faces-redirect=true";
     }
 }
